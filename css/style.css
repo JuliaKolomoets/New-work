@@ -30,7 +30,6 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 .header nav ul li a:hover:before{
     height: 1px;
     width: 20px;
-    margin-right: 19px;
 }
 .header nav ul li a:before{
     content: "";
@@ -38,12 +37,17 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
     background-color: #06060a;
     height: 0;
     width: 0;
-    transition: 0.3s;
+    transition: 0.2s;
+    margin-right: 19px;
+    margin-bottom: 5px;
 }
 .lian_agency{
     background-image: url("../images/background.jpg");
     padding-top: 260px;
     padding-bottom: 260px;
+    box-shadow:0px 3px 8px 2px rgba(191,195,194,0.96)inset;
+    -webkit-box-shadow:0px 3px 8px 2px rgba(191,195,194,0.96)inset;
+    -moz-box-shadow:0px 3px 8px 2px rgba(191,195,194,0.96)inset;
 }
 .first_page{
     margin: 0 auto;
@@ -100,6 +104,7 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
     color:#e1e1e1;
     margin-left: 20px;
     font-size: 30px;
+    font-weight: 100;
 }
 .second_page nav ul li a:hover{
     color: black;
@@ -137,6 +142,9 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 .footer{
     padding-top: 64px;
     padding-bottom: 44px;
+    -webkit-box-shadow: 0px -4px 16px 2px rgba(242,242,242,1);
+    -moz-box-shadow: 0px -4px 16px 2px rgba(242,242,242,1);
+    box-shadow: 0px -4px 16px 2px rgba(242,242,242,1);
 }
 .footer_section{
     margin: 0 auto;
