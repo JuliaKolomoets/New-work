@@ -139,8 +139,33 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
     padding-bottom: 44px;
 }
 .footer_section{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+}
+.social a i{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #777777;
+}
+.footer_section p{
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.social{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 44px;
+    margin-bottom: 37px;
+}
+.footer_section p span{
+    color: black;
 }
 
