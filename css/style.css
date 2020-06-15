@@ -8,31 +8,6 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 body{
     padding-top: 100px;
 }
-.social_fixed{
-    position: fixed;
-    right: 0;
-    top: 364px;
-    text-align: right;
-}
-.social_fixed a{
-    text-decoration: none;
-    display: block;
-    background-color: #850409;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    transition: 0.5s;
-}
-.social_fixed a:hover{
-    width: 200px;
-    height: 200px;
-    text-align: left;
-}
-.social_fixed a i{
-    color: white;
-    font-size: 33px;
-    line-height: 47px;
-}
 header{
     position: fixed;
     width: 100%;
@@ -58,6 +33,7 @@ header{
     font-size: 14px;
     color: #777777;
     margin-right: 45px;
+    position: relative;
 }
 .header nav ul li a:hover{
     color: black;
@@ -73,11 +49,14 @@ header{
     height: 0;
     width: 0;
     transition: 0.2s;
-    margin-right: 19px;
-    margin-bottom: 5px;
+    left: -27px;
+    bottom: 8px;
+    position: absolute;
 }
 .lian_agency{
     background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 260px;
     padding-bottom: 260px;
     box-shadow:0px 3px 8px 2px rgba(191,195,194,0.96)inset;
@@ -85,11 +64,12 @@ header{
     -moz-box-shadow:0px 3px 8px 2px rgba(191,195,194,0.96)inset;
 }
 .first_page{
-    margin: 0 auto;
-    max-width: 700px;
+    text-align: center;
 }
 .first_page h1{
-    text-align: center;
+    display: inline-flex;
+    padding-right: 40px;
+    padding-left: 40px;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 48px;
@@ -99,7 +79,6 @@ header{
     margin-bottom: 37px;
 }
 .first_page h3{
-    text-align: center;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -116,27 +95,27 @@ header{
     margin: 0 auto;
     text-align: center;
 }
-.second_page nav ul{
+.second_page ul{
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1 ;
     display: flex;
     justify-content: space-between;
     padding: 24px 200px 24px 200px;
 }
-.second_page nav ul li{
+.second_page ul li{
     list-style-type: none;
 }
-.second_page nav ul li:last-of-type a:after{
-    display: none;
+.second_page ul li:last-of-type a:after{
+   display: none;
 }
-.second_page nav ul li a{
+.second_page ul li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #777777;
     text-transform: uppercase;
 }
-.second_page nav ul li a:after{
+.second_page ul li a:after{
     content: "/";
     display: inline;
     color:#e1e1e1;
@@ -144,7 +123,7 @@ header{
     font-size: 30px;
     font-weight: 100;
 }
-.second_page nav ul li a:hover{
+.second_page ul li a:hover{
     color: black;
 }
 .first_line{
