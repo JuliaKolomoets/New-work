@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arvo', serif;
+}
+a, h1, h2, h3, p, div, img{
+    box-sizing: border-box;
+}
+body{
+    background-color: #3f0002;
+}
+
+.social_fixed{
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    top: 270px;
+}
+.social_fixed a{
+    text-decoration: none;
+    display: block;
+    background-color: #850409;
+    text-align: center;
+}
+.social_fixed a:last-of-type{
+    background-color: #98161b;
+    width: 50px;
+    height: 50px;
+}
+.social_fixed a i{
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+}
+.top_line{
+    height: 40px;
+    background-color: #af2024;
+}
+.bg_section{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.central_section{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.video_title{
+    background-color: white;
+    max-width: 710px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -100px;
+    padding-bottom: 100px;
+}
+.video_title h1{
+    background-color: #98161b;
+    padding: 27px 0 27px 18px;
+    color: white;
+}
+.video{
+    max-width: 565px;
+    margin: 0 auto;
+}
+.video h3{
+    font-size: 13px;
+    color: #98161b;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.video h3 span{
+    color: #7d7d7d;
+}
+.video .point{
+    margin-bottom: 20px;
+    color: #98161b;
+}
+.video p{
+    color: #98161b;
+    font-size: 12px;
+}
+.this_video{
+    height: 346px;
+    background-color: #e7e7e7;
+    position: relative;
+    margin-top: 60px;
+}
+.this_video:after{
+    content: "\f04b";
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    display: block;
+    color: #98161b;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    font-size: 55px;
+    cursor: pointer;
+}
+.bottom_line{
+    background-color: black;
+    height: 440px;
+    margin-top: 35px;
+}

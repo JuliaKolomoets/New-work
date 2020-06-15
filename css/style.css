@@ -5,11 +5,46 @@
 div, input, h1, h2, h3, h4, form, a, li, p, button, input{
     box-sizing: border-box;
 }
+body{
+    padding-top: 100px;
+}
+.social_fixed{
+    position: fixed;
+    right: 0;
+    top: 364px;
+    text-align: right;
+}
+.social_fixed a{
+    text-decoration: none;
+    display: block;
+    background-color: #850409;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+.social_fixed a:hover{
+    width: 200px;
+    height: 200px;
+    text-align: left;
+}
+.social_fixed a i{
+    color: white;
+    font-size: 33px;
+    line-height: 47px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+}
 .header{
     max-width: 1130px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 28px 0 28px 0;
 }
 .header nav ul li{
@@ -91,6 +126,9 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 .second_page nav ul li{
     list-style-type: none;
 }
+.second_page nav ul li:last-of-type a:after{
+    display: none;
+}
 .second_page nav ul li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -115,6 +153,7 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 }
 .all_img img{
     margin-top: 30px;
+    max-width: 360px;
 }
 .second_line{
     display: flex;
@@ -128,6 +167,7 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 .second_page .btn {
     text-align: center;
@@ -175,5 +215,9 @@ div, input, h1, h2, h3, h4, form, a, li, p, button, input{
 }
 .footer_section p span{
     color: black;
+}
+.map{
+    position: relative;
+    height: 360px;
 }
 
